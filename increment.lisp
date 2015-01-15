@@ -5,7 +5,7 @@
 
 (test 
   (assert-true "Test 1" 
-               (= 12 (increment 11)))
+			   (= 12 (increment 11)))
   (assert-true "Test 2"
                (= 19 (increment 18))))
 

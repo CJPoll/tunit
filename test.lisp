@@ -1,5 +1,3 @@
-(load "assert.lisp")
-
 (defun test-suite (tests)
   (loop for test in tests do 
         (unit-test test)))
